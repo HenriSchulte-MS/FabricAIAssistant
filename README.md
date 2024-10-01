@@ -1,5 +1,5 @@
 # Fabric AI Assistant
-This Semantic Kernel-powered AI Assistant allows you to query your Lakehouse tables and semantic models with Fabric AI Skills and Semantic Link - all from within a Microsoft Fabric notebook.
+This [Semantic Kernel](https://github.com/microsoft/semantic-kernel)-powered AI Assistant allows you to query your Lakehouse tables and semantic models with [Fabric AI Skills](https://blog.fabric.microsoft.com/en-us/blog/introducing-ai-skills-in-microsoft-fabric-now-in-public-preview/) and [Semantic Link](https://learn.microsoft.com/en-us/fabric/data-science/semantic-link-overview) - all from within a Microsoft Fabric notebook.
  
 To try out the assistant, perform the following steps:
 1. [In the Azure Portal, create an Azure AI resource](https://learn.microsoft.com/en-us/azure/ai-services/multi-service-resource?pivots=azportal) and deploy a chat and an embedding model (e.g., gpt-4o and text-embedding-ada-002).
