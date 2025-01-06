@@ -1,10 +1,10 @@
 # Fabric AI Assistant
-This repo explores ways to integrate Microsoft Fabric AI Skills into AI agents, enabling these agents to query data through natural language. As it is currently not possible to call AI Skills from outside of Microsoft Fabric, these experiments are confined to Python notebooks running within Fabric.
+This repo explores ways to integrate Microsoft Fabric AI Skills and Semantic Link into AI agents, enabling these agents to query data through natural language. As it is currently not possible to call AI Skills from outside of Microsoft Fabric, these experiments are confined to Python notebooks running within Fabric.
 The examples in this repo utilize either Semantic Kernel or Azure AI Agent Service. 
 
 ## Using Semantic Kernel
 
-This Semantic Kernel-powered AI Assistant allows you to query your Lakehouse tables and semantic models with Fabric AI Skills and Semantic Link from within a Microsoft Fabric notebook.
+This [Semantic Kernel](https://github.com/microsoft/semantic-kernel)-powered AI Assistant allows you to query your Lakehouse tables and semantic models with [Fabric AI Skills](https://blog.fabric.microsoft.com/en-us/blog/introducing-ai-skills-in-microsoft-fabric-now-in-public-preview/) and [Semantic Link](https://learn.microsoft.com/en-us/fabric/data-science/semantic-link-overview) from within a Microsoft Fabric notebook.
  
 To try out the assistant, perform the following steps:
 1. [In the Azure Portal, create an Azure AI resource](https://learn.microsoft.com/en-us/azure/ai-services/multi-service-resource?pivots=azportal) and deploy a chat and an embedding model (e.g., gpt-4o and text-embedding-ada-002).
