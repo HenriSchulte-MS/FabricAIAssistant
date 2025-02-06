@@ -16,7 +16,9 @@ To try out the assistant, perform the following steps:
 1. Modify the cell containing the user input to include your query.
 1. Run the entire notebook.
 
-# Using Azure AI Agent Service
+## Using Azure AI Agent Service
+
+Note that this version was last updated for version 1.0.0b5 of azure-ai-projects.
 
 In addition to Semantic Kernel, there is now also a notebook using Azure AI Agent Service. This approach allows for the use of built-in capabilities, such as Code Interpreter, as well as custom functions, such as calling an AI Skill. 
 
